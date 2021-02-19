@@ -84,7 +84,7 @@ info.onAdd = function (map) {
 
 // Edit info box text and variables (such as props.density2010) to match those in your GeoJSON data
 info.update = function (props) {
-  this._div.innerHTML = '<h3>Share of National Income by Top 1 Percent</h3>';
+  this._div.innerHTML = '<h3>Electricity Source 2019</h3>';
 
   var value = props && props.percent ? props.percent + '%' : 'No data'
 
